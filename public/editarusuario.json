@@ -1,0 +1,11 @@
+[
+    {
+        "id_usuario": "11",
+        "correo": "pericolospalotes@gmail.com",
+        "contrasena":"pericolospalotes",
+        "nombre": "Perico Lospalotes",
+        "edad":25,
+        "direccion":"Ningún lugar 666",
+        "celular": "+56 9 12345678"
+      }
+]

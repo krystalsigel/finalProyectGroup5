@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu&display=swap');
+
+
+body {
+  font-family:'Righteous', cursive;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 2%, rgba(220,245,247,1) 53%, rgba(217,214,255,1) 100%);
+ 
+}
+.App {
+  text-align: center;
+}
+/*Home*/
+.wallpaper{
+  background-image: url("assets/img/wall.jpg");
+  min-width: 100vh;
+   min-height: 100vh;
+   background-size: cover;
+   position: relative;
+   padding-top: 5px;
+   color: white;
+   font-family:'Righteous', cursive;
+}
+.homebutton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+  
+  
+}
+
+.navEd{
+  font-family:'Righteous', cursive;
+
+}
+
+
+/*Registro*/
+.registroEdit{
+  margin: 2em;
+  font-family:'Ubuntu', sans-serif;
+}
+
+/*Login*/
+.login{
+  padding: 60px;
+justify-items: center;
+}
+
+/*Perfil*/
+.list {
+  padding: 10px;
+  margin: 30px;
+  font-family:'Righteous', cursive;
+}
+
+/*Formulario*/
+.formulario{
+  margin: 20px;
+  font-family:'Righteous', cursive;
+}
+
+
+
+.active{
+  font-weight: bold;
+  color: rgb(107, 237, 224);
+}
+
+.imgcard{
+  transition: transform .7s;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+}
+.imgcard:hover{
+  transform: scale(1.2);
+}
