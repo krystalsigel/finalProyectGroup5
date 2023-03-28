@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-
 import MyContext from "../MyContext";
-
+import Button from 'react-bootstrap/Button';
 
 const Sidebar = () => {
   const { setChangeState, products, setPriceFilter, minPrice, setMinPrice, maxPrice, setMaxPrice } = useContext(MyContext)
@@ -29,27 +28,28 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="price-range">
-      <h6>Precio</h6>
+    <div className="mt-3">
+      <h4>Precio:</h4>
       <div>
-        <label htmlFor="min-price">Desde</label>
+        <label htmlFor="min-price">Desde:</label>
         <br/>
-        <input
+        <input className="borderEdit"
           id="min-price"
           type="number"
           value={minPrice}
           onChange={(e) => setMinPrice(e.target.value || 0) }/>
       </div>
       <div>
-        <label htmlFor="max-price">Hasta </label>
+        <label htmlFor="max-price">Hasta:</label>
         <br/>
-        <input
+        <input className="borderEdit"
           id="max-price"
           type="number"
           value={maxPrice}
           onChange={(e) => setMaxPrice(e.target.value || 0)}/>
       </div>
-      <button onClick={() => handleSearch()}>BUSCAR</button>    
+      <Button className="mt-3" variant="primary" onClick={() => handleSearch()}>Buscar</Button>
+     
     </div>
   );
 }

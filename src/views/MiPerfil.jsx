@@ -1,10 +1,7 @@
 import React, { useContext } from "react";
-
 import MyContext from "../MyContext";
-
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
 import { Row, Col } from "react-bootstrap";

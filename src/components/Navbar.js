@@ -1,9 +1,6 @@
 import React, { useContext } from 'react';
-
 import MyContext from "../MyContext";
-
 import { Link, useNavigate } from "react-router-dom";
-
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -36,11 +33,11 @@ const BarraNavegacion = () => {
 
 
   return (
-    <div className='navEd'>
-    <Navbar className='navEdit' bg="dark" expand="lg" variant="dark">
+    <div>
+    <Navbar className='p-3' bg="dark" expand="lg" variant="dark">
       <Container>
         <Link to="/" className="text-white ms-3 text-decoration-none">
-          <Navbar.Brand href="#">CONECTA-DOS</Navbar.Brand>
+          <Navbar.Brand href="#">CONECTA-2</Navbar.Brand>
         </Link>
         <Nav
           className="me-auto my-2 my-lg-0"

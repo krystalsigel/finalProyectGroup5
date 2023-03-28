@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu&display=swap');
 
-
-body {
+*{
   font-family:'Righteous', cursive;
+}
+body {
   background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 2%, rgba(220,245,247,1) 53%, rgba(217,214,255,1) 100%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 2%, rgba(220,245,247,1) 53%, rgba(176,170,252,1) 100%);
  
 }
 .App {
@@ -26,15 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 10%;
-  
-  
 }
-
-.navEd{
-  font-family:'Righteous', cursive;
-
-}
-
 
 /*Registro*/
 .registroEdit{
@@ -62,7 +55,7 @@ justify-items: center;
 }
 
 
-
+/*Galeria*/
 .active{
   font-weight: bold;
   color: rgb(107, 237, 224);
@@ -79,4 +72,19 @@ justify-items: center;
 }
 .imgcard:hover{
   transform: scale(1.2);
+}
+
+.galeryEdit{
+  display: flex;
+  height: 100vh;
+}
+.sideGalery{
+  width: 260px;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: auto;
+  margin:10px;
+}
+.borderEdit{
+  border-radius: 10px;
 }
