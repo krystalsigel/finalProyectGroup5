@@ -30,8 +30,6 @@ const BarraNavegacion = () => {
     otroEstado();    
   };
 
-
-
   return (
     <div>
     <Navbar className='p-3' bg="dark" expand="lg" variant="dark">
