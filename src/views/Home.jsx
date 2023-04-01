@@ -19,14 +19,14 @@ const Home = () => {
       <h1 className=" m-3 p-3">¡Bienvenido a Conecta-2!</h1>
       <Button
         className="homebutton"
-        variant="dark"
+        variant="primary"
         onClick={irAFormularioProductos}
       >
         {" "}
         VENDE YA!
       </Button>
       <Link to="/galeria" className="text-white ms-3 text-decoration-none">
-        <Button variant="dark" className="homebutton" onClick={TrueEstado}>
+        <Button variant="primary" className="homebutton" onClick={TrueEstado}>
           COMPRA AQUI!
         </Button>
       </Link>

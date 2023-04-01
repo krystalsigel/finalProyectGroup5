@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import conect from '../assets/img/log.png';
 
 
 const BarraNavegacion = () => {
@@ -35,7 +36,10 @@ const BarraNavegacion = () => {
     <Navbar className='p-3' bg="dark" expand="lg" variant="dark">
       <Container>
         <Link to="/" className="text-white ms-3 text-decoration-none">
-          <Navbar.Brand href="#">CONECTA-2</Navbar.Brand>
+        
+          <Navbar.Brand href="#">
+          <img src={conect} alt="" width={110} />CONECTA-2
+          </Navbar.Brand>
         </Link>
         <Nav
           className="me-auto my-2 my-lg-0"
